@@ -20,6 +20,7 @@ body {
     align-items: center;
     list-style: none;
     margin: 0;
+    padding-left: 0;
 }
 
 .navbar>ul>li:hover{
@@ -56,6 +57,7 @@ footer{
     background-image: url(../images/upcoming-events.jpg);
     max-width: 20%;
     height: 200px;
+    min-width: 200px;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-decoration: none;
@@ -106,4 +108,45 @@ form{
 
 form button:hover{
     cursor: pointer;
+}
+
+.menu-icon{
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+
+@media (max-width: 600px){
+    .navbar>h1{
+        display: none;
+    }
+
+    .navbar>ul{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    main{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    .navbar>ul{
+        flex-direction: column;
+    }
+    .navbar>ul>li{
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px){
+    .navbar>ul{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
 }
