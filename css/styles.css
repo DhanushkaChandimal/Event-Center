@@ -80,3 +80,9 @@ table img{
 tr:not(:has(th)):hover{
     background-color: lightgray;
 }
+
+#location-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
