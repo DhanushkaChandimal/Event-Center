@@ -38,3 +38,21 @@ main{
 footer{
     margin-top: auto;
 }
+
+.featured>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/upcoming-events.jpg);
+    max-width: 20%;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 0.8;
+    border-radius: 20%;
+}
+
+.featured>a:hover{
+    opacity: 1;
+}
