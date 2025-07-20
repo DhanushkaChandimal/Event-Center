@@ -66,3 +66,17 @@ footer{
 .events>article>img{
     height: 120px;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table img{
+    height: 150px;
+}
+
+/* Bonus: Add hover effects or striped rows for better readability. */
+tr:not(:has(th)):hover{
+    background-color: lightgray;
+}
