@@ -120,6 +120,10 @@ form button:hover{
     display: none;
 }
 
+#small-map{
+    display: none;
+}
+
 @media (max-width: 600px){
     .navbar>h1{
         display: none;
@@ -141,6 +145,14 @@ form button:hover{
 
     .featured>a::before{
         content: "Events";
+    }
+
+    #medium-map{
+        display: none;
+    }
+
+    #small-map{
+        display: block;
     }
 }
 
